@@ -8,55 +8,64 @@
   <body>
     <div id="hero">
       <h1>My Portfolio</h1>
-      <p>Egyptian student, learning Front-End with Sprix!</p>
+      <p class="introduction">Egyptian student, learning Front-End with Sprix!</p>
     </div>
     
-      <div id="about"> 
+      <section> 
         <h2>Links:</h2>
         <p>Review my past projects from the links below:</p>
-        <a href="https://example.com" class="link">Project1</a>
-        <img src="https://e.top4top.io/p_3835a0apg1.jpeg" alt="retro game project" class="img">
-        <a href="https://example.com" class="link">Project2</a>
-        <img src="https://h.top4top.io/p_3835bcat32.jpeg" alt="educational mathlab website" class="img">
-      </div>
+        <div class="cards-container">
+          <div class="card">
+          <a href="https://example.com" class="link">Project1</a>
+          <img src="https://e.top4top.io/p_3835a0apg1.jpeg" alt="retro game project" class="links-img">
+        </div>
+        <div class="card">
+          <a href="https://example.com" class="link">Project2</a>
+          <img src="https://h.top4top.io/p_3835bcat32.jpeg" alt="educational mathlab website" class="links-img">
+        </div>
+        </div>        
+      </section>
     
       <section>
         <h3>Sources:</h3>
-        <div id="cards-container">
+        <div class="cards-container">
           
           <div class="card">
-          <img src="https://b.top4top.io/p_3835co4se0.jpeg">
+          <img src="https://b.top4top.io/p_3835co4se0.jpeg" class="sources-img">
           <p>Sprix Portal</p>
           <button class="accessbtn">Access</button>
           </div>
 
           <div class="card">
-          <img src="https://f.top4top.io/p_38353y54e1.jpg">
+          <img src="https://f.top4top.io/p_38353y54e1.jpg" class="sources-img">
           <p>MDN Website</p>
           <button class="accessbtn">Access</button>
           </div>
           
           <div class="card">
-          <img src="https://h.top4top.io/p_3835uctjx3.jpg">
+          <img src="https://h.top4top.io/p_3835uctjx3.jpg" class="sources-img">
           <p>W3Schools Website</p>
           <button class="accessbtn">Access</button>
           </div>
 
           <div class="card">
-          <img src="https://g.top4top.io/p_3835ud9p32.jpg">
+          <img src="https://g.top4top.io/p_3835ud9p32.jpg" class="sources-img">
           <p>Qureo portal</p>
           <button class="accessbtn">Access</button>
           </div>
 
         </div>
       </section>
-    
-      <h3>Contact:</h3>
+
+      <section id="form-section" class="form-section">
+        <h3>Contact:</h3>
       <form>
         <label for="name">Name:</label>
         <input type="text" placeholder="Your name" />
         <label for="email">Email:</label>
         <input type="email" placeholder="Your email" />
       </form>
+      </section>
+      
   </body>
 </html>
