@@ -21,7 +21,7 @@ h1 {
   transition: 0.2s ease;
 }
 .accessbtn: hover{
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 #about {
   margin-top: 50px;
@@ -71,5 +71,5 @@ input {
 input:focus {
   outline: none;
   border: 1px solid #e04040;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
