@@ -4,11 +4,16 @@ body {
   color: #2d2d2d;
 }
 h1 {
-  text-align: center;
   color: #e04040;
 }
 #hero {
+  text-align: center;
   padding: 32px;
+}
+.introduction {
+  font-size: 16px;
+  color: grey;
+  font-style: italic;
 }
 .accessbtn{
   padding: 12px;
@@ -21,28 +26,13 @@ h1 {
   transition: 0.2s ease;
 }
 .accessbtn: hover{
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.8);
 }
-#about {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-#about img {
-  display: block;
-  margin: 10px;
-  height: 140px;
-  width: 250px;
-  border-radius: 12px;
-}
-
 p {
   font-size: 18px;
   line-height: 1.6;
 }
-.link {
-  color: #e04040;
-}
-#cards-container {
+.cards-container {
   display: flex;
   gap: 15px;
   width: 30%;
@@ -50,7 +40,21 @@ p {
 .card {
   padding: 24px;
 }
-.card img{
+.card p {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+.link {
+  color: #e04040;
+}
+.links-img {
+  margin: 10px;
+  height: 140px;
+  width: 250px;
+  border-radius: 12px;
+}
+.sources-img{
   border-radius: 50%;
   width: 100%;
 }
@@ -72,4 +76,7 @@ input:focus {
   outline: none;
   border: 1px solid #e04040;
   background-color: #fafafa;
+}
+section {
+  margin: 40px;
 }
