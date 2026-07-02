@@ -9,6 +9,7 @@ h1 {
 #hero {
   text-align: center;
   padding: 32px;
+  position: relative;
 }
 .introduction {
   font-size: 16px;
@@ -105,4 +106,12 @@ section {
 }
 .nav-links a:hover {
   color: #2d2d2d;
+}
+.badge {
+  position: absolute;
+  padding: 8px 12px;
+  background-color:#e04040;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
 }
