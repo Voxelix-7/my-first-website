@@ -30,7 +30,9 @@ h1 {
   transition: 0.3s ease;
 }
 .badge:hover {
-  background-color: #b82f2f;
+  background-color: #c33636;
+  transform: translateY(-2px); /* I Googled that part */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 .introduction {
   font-size: 16px;
@@ -48,7 +50,9 @@ h1 {
   transition: 0.3s ease;
 }
 .accessbtn:hover{
-  background-color: #b82f2f;
+  background-color: #c33636;
+  transform: translateY(-2px); 
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 p {
   font-size: 18px;
@@ -166,5 +170,6 @@ section {
   transition: 0.3s ease;
 }
 .bannerBtn:hover{
-  background-color: #b82f2f;
+  background-color: #d89090;
+  transform: translateY(-4px);
 }
